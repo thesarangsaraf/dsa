@@ -1,13 +1,13 @@
 package com.dsa;
 
 import com.dsa.core.rules.DsaExecutor;
-import com.dsa.sorting.BubbleSort;
+import com.dsa.sorting.SequentialSort;
 
-public class Application {
+public class DsaApplication {
 
 	public static void main(String[] args) {
 		
-		DsaExecutor dsaExecutor = new BubbleSort();
+		DsaExecutor dsaExecutor = new SequentialSort();
 		dsaExecutor.execute();
 	}
 
